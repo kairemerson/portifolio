@@ -1,3 +1,6 @@
+import { Variants } from 'framer-motion';
+
+
 export const staggerContainer = {
   hidden: { opacity: 1 },
   show: {
@@ -24,23 +27,30 @@ export const fadeUp = {
 };
 
 
-export const overlayVariants = {
+export const overlayVariants: Variants = {
   hidden: {
     opacity: 0,
+    backdropFilter: 'blur(0px)',
   },
   visible: {
     opacity: 1,
-    transition: { duration: 0.25 },
+    backdropFilter: 'blur(12px)',
+    transition: {
+      duration: 0.3,
+    },
   },
   exit: {
     opacity: 0,
-    transition: { duration: 0.2 },
+    backdropFilter: 'blur(0px)',
+    transition: {
+      duration: 0.2,
+    },
   },
 };
 
-export const menuVariants = {
+export const menuVariants: Variants = {
   hidden: {
-    y: 30,
+    y: 40,
     opacity: 0,
   },
   visible: {
@@ -48,21 +58,23 @@ export const menuVariants = {
     opacity: 1,
     transition: {
       duration: 0.35,
-      ease: 'easeOut',
+      ease: [0.16, 1, 0.3, 1], // ✅ cubic-bezier (SAFE)
       staggerChildren: 0.08,
       delayChildren: 0.1,
     },
   },
   exit: {
-    y: 30,
+    y: 40,
     opacity: 0,
-    transition: { duration: 0.2 },
+    transition: {
+      duration: 0.2,
+    },
   },
 };
 
-export const itemVariants = {
+export const itemVariants: Variants = {
   hidden: {
-    y: 10,
+    y: 12,
     opacity: 0,
   },
   visible: {
@@ -70,4 +82,3 @@ export const itemVariants = {
     opacity: 1,
   },
 };
-
