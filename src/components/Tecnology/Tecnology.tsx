@@ -3,8 +3,8 @@ import { TecnologyCard } from "./TecnologyCard/TecnologyCard";
 
 export default function Tecnology() {
   return (
-    <section className="w-full min-h-screen bg-bgDark flex flex-col items-center px-6 pb-20 md:px-16" id="tecnology">
-        <h2 className="text-4xl text-white font-semibold mb-24 mt-24">Tecnologias</h2>
+    <section className="w-full min-h-screen bg-background flex flex-col items-center px-6 pb-20 md:px-16" id="tecnology">
+        <h2 className="text-4xl text-foreground font-semibold mb-24 mt-24">Tecnologias</h2>
 
         <div className="flex flex-wrap gap-6 max-w-7xl ">
             <SlideOnScroll from="top" delay={0}>

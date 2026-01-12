@@ -5,17 +5,17 @@ import {  GithubLogoIcon, LinkedinLogoIcon, InstagramLogoIcon, WhatsappLogoIcon 
 
 export default function Contact() {
   return (
-    <section className="w-full min-h-[800px] py-20 bg-bgDark flex flex-col justify-center items-center text-center px-4" id="contact">
-      <h2 className="text-4xl font-semibold text-white">Entre em contato</h2>
+    <section className="w-full min-h-[600px] py-20 bg-background flex flex-col justify-center items-center text-center px-4" id="contact">
+      <h2 className="text-4xl font-semibold text-foreground">Entre em contato</h2>
 
-      <p className="text-gray-300 max-w-xl mt-4">
+      <p className="text-foreground max-w-xl mt-4">
         Abaixo tem os links de algumas redes sociais, e o link do whatsapp,
         mande uma mensagem que assim que possível retornarei.
       </p>
 
       <div className="flex items-center gap-8 mt-10">
         <IconLink href="https://github.com/kairemerson" >
-          <GithubLogoIcon size={34} weight="duotone"/>
+          <GithubLogoIcon size={34} weight="duotone" />
         </IconLink>
 
         <IconLink href="https://www.linkedin.com/in/remersonmonteiro/">
@@ -42,7 +42,7 @@ function IconLink({ href, children }: { href: string; children: React.ReactNode 
       href={href}
       target="_blank"
       className="
-        text-white/80 hover:text-primary transition
+        text-muted-foreground hover:text-primary transition
         hover:scale-110 duration-200 ease-out
       "
     >
