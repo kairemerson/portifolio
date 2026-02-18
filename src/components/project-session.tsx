@@ -37,6 +37,12 @@ export function ProjectsSection() {
           
           <ProjectGroup title='React'>
             <ProjectCard 
+                image="/projects/coffee-delivery-web.png"
+                title="Coffee Delivery Web"
+                description="Aplicação feita com React, styled components, typescript, react hook form, zod."
+                link="https://desafio-coffee-delivery-chi.vercel.app/"
+            />
+            <ProjectCard 
                 image="/projects/todo-fullstack.jpg"
                 title="Todo Fullstack com Login"
                 description="Aplicação feita com React, css-module, typescript, Backend em Node."
@@ -55,18 +61,32 @@ export function ProjectsSection() {
                 link="https://www.linkedin.com/posts/remersonmonteiro_react-css-javascript-activity-7234335881510219778-r7DK?utm_source=share&utm_medium=member_desktop&rcm=ACoAABs7WUAB_j1c6JbXQnWOeUad8CEdhnoGNkM"
             />
             <ProjectCard 
+              image="/projects/todo.jpg"
+              title="Todo App"
+              description="Todo App feito com React, Typescript, Css-module e Vite, desafio Rocketseat."
+              link="https://desafio-react-ignite-to-do-list.vercel.app/"
+            />
+            <ProjectCard 
                 image="/projects/insure.png"
                 title="Insure Landing Page "
                 description="Landing page feita com React, Styled Components."
                 link="https://insure-blue.vercel.app/"
             />
-              <ProjectCard 
-                image="/projects/todo.jpg"
-                title="Todo App"
-                description="Todo App feito com React, Typescript, Css-module e Vite, desafio Rocketseat."
-                link="https://desafio-react-ignite-to-do-list.vercel.app/"
-            />
+          </ProjectGroup>
 
+          <ProjectGroup title='Next'>
+            <ProjectCard 
+                image="/projects/ignite-shop.png"
+                title="Ignite Shop"
+                description="Aplicativo para gerenciar vendas, integrado com stripe para cadastros de produtos e método de pagamento, feito em React, Next, Styled components, Stripe"
+                link="https://www.linkedin.com/posts/remersonmonteiro_react-nextjs-frontend-activity-7420554951296458752-D55A?utm_source=share&utm_medium=member_desktop&rcm=ACoAABs7WUAB_j1c6JbXQnWOeUad8CEdhnoGNkM"
+            />
+            <ProjectCard 
+                image="/projects/pet-shop.png"
+                title="Agendamento Pet Shop - Fullstack"
+                description="Aplicativo para agendamento de pet shop com a possibilidade de agendar clientes e remover o agendamento., feito em React, Next, Tailwind, Radix-ui, React hook form, Zod, Node, Prisma"
+                link="https://projeto-pet-shop-9yjll7uem-kairemersons-projects.vercel.app/"
+            />
           </ProjectGroup>
 
           <ProjectGroup title='React Native'>
@@ -93,6 +113,18 @@ export function ProjectsSection() {
                 title="Marketspace"
                 description="Aplicativo de anúncios de produtos no estilo OLX, feito em React Native e Expo"
                 link="https://www.linkedin.com/posts/remersonmonteiro_react-reactnative-expo-activity-7414352602391568384-zaiu?utm_source=share&utm_medium=member_desktop&rcm=ACoAABs7WUAB_j1c6JbXQnWOeUad8CEdhnoGNkM"
+            />
+            <ProjectCard 
+                image="/projects/coffee-delivery.png"
+                title="Coffee Delivery"
+                description="Aplicativo de compra e delivery de cafés, feito em React Native e Expo"
+                link="https://www.linkedin.com/posts/remersonmonteiro_react-reactnative-expo-activity-7416935203966722048-4Zak?utm_source=share&utm_medium=member_desktop&rcm=ACoAABs7WUAB_j1c6JbXQnWOeUad8CEdhnoGNkM"
+            />
+            <ProjectCard 
+                image="/projects/budgets.png"
+                title="Orçamentos de Serviços"
+                description="Aplicativo de gestão de envio de propostas comerciais, gerenciamento de orçamentos, feito em React Native e Expo"
+                link="https://www.linkedin.com/posts/remersonmonteiro_react-reactnative-typescript-activity-7427066776636817408-3SOU?utm_source=share&utm_medium=member_desktop&rcm=ACoAABs7WUAB_j1c6JbXQnWOeUad8CEdhnoGNkM"
             />
           </ProjectGroup>
       
